@@ -18,15 +18,17 @@ export default defineConfig({
             text: 'Project Management', link: 'project-management/index.md', items: [
               { text: 'Learning Outcomes', link: 'project-management/learning-outcomes.md' },
               { text: 'Way of working', link: 'project-management/way-of-working.md' },
+              { text: 'Logbook', link: 'project-management/logbook.md'},
+              { text: 'FeedPulse', link: 'project-management/feed-pulse.md'}
             ]
           },
           { text: 'Research', link: 'research/index.md', items: [
             { text: 'User Centered Design', link: 'research/user-centered-design.md' },
             { text: 'Design Systems', link: 'research/design-systems.md' },            
             { text: 'Contribution Model', link: 'research/contribution-model.md' },            
-            { text: 'App Architecture', link: 'research/design-systems.md' },
+            { text: 'App Architecture', link: 'research/app-architecture.md' },
           ]},
-          { text: 'Design', link: 'design/index.md' },
+          { text: 'Design', link: 'design/index.md', items: [{text: 'Design System', link: 'design/rapid-prototyping.md'}]},
           { text: 'Development', link: 'development/index.md' },
           { text: 'Showcase', link: 'showcase/index.md' },
         ]
