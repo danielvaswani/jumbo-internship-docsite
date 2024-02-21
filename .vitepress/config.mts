@@ -19,7 +19,8 @@ export default defineConfig({
               { text: 'Learning Outcomes', link: 'project-management/learning-outcomes.md' },
               { text: 'Way of working', link: 'project-management/way-of-working.md' },
               { text: 'Logbook', link: 'project-management/logbook.md'},
-              { text: 'FeedPulse', link: 'project-management/feed-pulse.md'}
+              { text: 'FeedPulse', link: 'project-management/feed-pulse.md'},
+              { text: 'Reflections', link: 'project-management/reflections.md'}
             ]
           },
           { text: 'Research', link: 'research/index.md', items: [
@@ -28,8 +29,9 @@ export default defineConfig({
             { text: 'Contribution Model', link: 'research/contribution-model.md' },            
             { text: 'App Architecture', link: 'research/app-architecture.md' },
           ]},
-          { text: 'Design', link: 'design/index.md', items: [{text: 'Design System', link: 'design/rapid-prototyping.md'}]},
-          { text: 'Development', link: 'development/index.md' },
+          { text: 'Design', link: 'design/index.md', items: [{text: 'Rapid Prototyping', link: 'design/rapid-prototyping.md'}]},
+          { text: 'Design', link: 'design/index.md', items: [{text: 'About Kompas', link: 'design/about-kompas.md'}]},
+          { text: 'Development', link: 'development/index.md', items: [{ text: 'KompasAnalyser', link: 'development/kompas-analyser.md' }, { text: 'Portfolio site', link: 'development/portfolio-site.md' }]},
           { text: 'Showcase', link: 'showcase/index.md' },
         ]
       }

@@ -1,5 +1,8 @@
 # Research
 
+## Overview
+<!-- TODO Diagram to map research questions and methods -->
+
 ## Research Questions
 
 1. What are the most important metrics to measure the success of Design Systems?
@@ -36,3 +39,6 @@
 ### Conclusion
 
 ## Final Conclusion
+
+
+## Gannt Chart (Research part)

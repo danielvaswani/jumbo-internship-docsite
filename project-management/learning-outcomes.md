@@ -1,4 +1,4 @@
-# Learning outcomes
+# Learning Outcomes
 
 [[toc]]
 
