@@ -1,17 +1,22 @@
 # Research
 
-## Overview
-<!-- TODO Diagram to map research questions and methods -->
+## Research Methods
+
+### ICT / CMD Research Methods
+
+### UCD Research Methods
+
+To follow the full UCD process, there is a Figma Board that contains all the research methods and activities that are part of the UCD process. [The board can be found here](https://www.figma.com/file/1Q6Z)
 
 ## Research Questions
 
-1. What are the most important metrics to measure the success of Design Systems?
-   - What makes up a Design System?
-   - How can we present the data in an understandable way?
-   - What are all the metrics used to gauge success?
+1. How might we best automate the reporting to Kompas stakeholders about key success metrics about its usage between designers and developers that use it?
 
-### Methods
+   - What makes up a Design System? [Literature Study](https://google.com) | [Expert Interview](https://google.com)
 
+   - How can we present the data in an insightful and understandable way? [Literature Study](https://google.com) | [A/B Testing](https://google.com) | [Data Analytics](https://google.com)
+
+   - What are all the metrics used to gauge DS success? [Literature Study](https://google.com) | [Document Analysis](https://google.com)
 
 ### Conclusion
 
@@ -20,25 +25,16 @@
    - How do designers interact with the system and author components?
    - How might we improve the workflows?
 
-
-
 ### Methods
 
 ### Conclusion
 
 3. How might we architect the software for a dashboard containing Design System usage insights?
 
-### Methods
-
 ### Conclusion
 
 4. What are the best ways to collect data within an internal dashboard?
 
-### Methods
-
 ### Conclusion
 
 ## Final Conclusion
-
-
-## Gannt Chart (Research part)

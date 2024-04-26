@@ -24,7 +24,6 @@ export default defineConfig({
             ]
           },
           { text: 'Research', link: 'research/index.md', items: [
-            { text: 'User Centered Design', link: 'research/user-centered-design.md' },
             { text: 'Design Systems', link: 'research/design-systems.md' },            
             { text: 'Contribution Model', link: 'research/contribution-model.md' },            
             { text: 'App Architecture', link: 'research/app-architecture.md' },
