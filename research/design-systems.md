@@ -52,12 +52,25 @@ Reusing components and patterns across projects can also help to reduce the time
 
 ### Building a Design System
 
-- Adopting Atomic Design
-- Defining Design Principles
-- Creating a Style guide
-- Developing UI Components
-- Designing Patterns and Templates
-- Documenting the System
+<br>
+
+#### Adopting Atomic Design
+
+Atomic Design is a methodology for creating design systems that breaks down interfaces into smaller, reusable components, such as atoms, molecules, organisms, templates, and pages. By starting with the smallest building blocks and working up to larger structures, designers can create more flexible and scalable systems that can be easily adapted to different contexts.
+
+It prioritizes consistency, scalability, and reusability, making it an ideal framework for building design systems. By following the principles of Atomic Design, designers can create more cohesive and coherent products that are easier to maintain and update over time.
+
+It was introduced by Brad Frost in his book [Atomic Design](https://atomicdesign.bradfrost.com/).
+
+#### Defining Design Principles
+
+#### Creating a Style guide
+
+#### Developing UI Components
+
+#### Designing Patterns and Templates
+
+#### Documenting the System
 
 ### Implementing and Maintaining a Design System
 
@@ -103,5 +116,6 @@ Reusing components and patterns across projects can also help to reduce the time
 - [Design System metrics collection](https://designstrategy.guide/design-system/design-system-metrics-collection/)
 - [Design System audit](https://www.ramotion.com/blog/design-system-audit/)
 - [Design System contribution model](https://medium.com/eightshapes-llc/defining-design-system-contributions-eb48e00e8898)
+- [Atomic Design](https://atomicdesign.bradfrost.com/)
 
 ## Expert Interviews
