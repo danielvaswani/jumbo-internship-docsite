@@ -52,15 +52,16 @@ Reusing components and patterns across projects can also help to reduce the time
 
 ### Building a Design System
 
-- Research and Analysis
+- Adopting Atomic Design
 - Defining Design Principles
-- Creating Brand Guidelines
+- Creating a Style guide
 - Developing UI Components
 - Designing Patterns and Templates
 - Documenting the System
 
 ### Implementing and Maintaining a Design System
 
+- Understanding the contribution model
 - Integration with Design and Development Processes
 - Training and Onboarding
 - Versioning and Updating
