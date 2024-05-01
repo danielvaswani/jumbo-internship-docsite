@@ -1,8 +1,8 @@
 # Design Systems
 
-## Literature Study
+[[toc]]
 
-### What makes up a Design System?
+## What makes up a Design System?
 
 A Design System is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications. It serves as a single source of truth for designers and developers, ensuring that everyone is on the same page and that the product is consistent and cohesive.
 
@@ -60,62 +60,114 @@ Atomic Design is a methodology for creating design systems that breaks down inte
 
 It prioritizes consistency, scalability, and reusability, making it an ideal framework for building design systems. By following the principles of Atomic Design, designers can create more cohesive and coherent products that are easier to maintain and update over time.
 
-It was introduced by Brad Frost in his book [Atomic Design](https://atomicdesign.bradfrost.com/).
+Here is an example of how Atomic Design is split into different levels:
+
+![Atomic Design](../assets/AtomicDesignExamples.png)
+
+Atomic was introduced by Brad Frost in his book [Atomic Design](https://atomicdesign.bradfrost.com/). Since then, it has become a popular framework for building design systems and has been adopted by many organizations, including IBM and Shopify.
 
 #### Defining Design Principles
 
+Design principles are the core values and beliefs that guide the design of a system. They help to establish a shared vision and set of goals for the team, ensuring that everyone is on the same page and working towards the same objectives.
+
+Design principles can cover a wide range of topics, such as simplicity, consistency, accessibility, and usability. They should be clear, concise, and actionable, providing a framework for making decisions and solving problems.
+
+Here is an example, showcasing the design principles of Kompas, an internal design system at Jumbo Supermarkten:
+
+![Kompas Design Principles](../assets/KompasPrinciples.png)
+
 #### Creating a Style guide
+
+A style guide is a document that outlines the visual and verbal elements that define a brand, such as colors, typography, and tone of voice. It serves as a reference for designers and developers, ensuring that everyone is using the same assets and following the same guidelines. Style guides can take many forms, from simple documents to interactive websites. They should be easy to access and update, making it easy for teams to stay aligned and consistent.
+
+Here is an example of a style guide from [Starbucks](https://creative.starbucks.com/logos/)
+
+![Starbucks Style Guide](../assets/StarbucksExample.png)
 
 #### Developing UI Components
 
-#### Designing Patterns and Templates
+UI components are the building blocks of a design system, such as buttons, forms, and navigation bars. They should be reusable, flexible, and easy to customize, allowing designers and developers to create a wide range of interfaces without starting from scratch.
+
+These components are created based on designs and patterns that are created in the pattern library with the companies principles and brand guidelines in mind. This is how the 3 layers of a design system are connected.
+
+The leading tech companies tend to create component libraries using React, Angular, or Vue.js.From there it is a good idea to publish these libraries as npm packages, so that they can be easily shared and reused across projects. These libraries are then used to build the UI of their products.
 
 #### Documenting the System
 
+Documentation is a critical part of any design system, as it provides a reference for designers and developers to understand how the system works and how to use it effectively. It should be clear, concise, and up-to-date, providing information on everything from design principles to component usage.
+
+Documentation can take place on many platforms such as Confluence, Notion, Google docs, a companies internal wiki, or even a custom-built website. The most important thing is that it is accessible and easy to update, easy to access, readable, concise and fills in all the missing pieces of the design system.
+
 ### Implementing and Maintaining a Design System
 
-- Understanding the contribution model
-- Integration with Design and Development Processes
-- Training and Onboarding
-- Versioning and Updating
-- Governance and Ownership
+<br>
 
-### Real-World Examples
+Just like any other product, a design system requires ongoing maintenance and support to ensure that it remains effective and up-to-date. This includes monitoring usage, collecting feedback, and making improvements based on user needs and business goals.
 
-- Case studies of successful design system implementations
-- Analysis of different approaches and outcomes
+#### Understanding the contribution model
 
-### Challenges and Solutions
+Nathan Curtis, a design systems expert, has defined a contribution model that outlines the roles and responsibilities of different team members in a design system. This model helps to clarify who is responsible for what and how contributions should be made, ensuring that everyone is on the same page and working towards the same goals.
 
-- Common challenges in building and maintaining design systems
-- Strategies to overcome these challenges
+Nathan Curtis' Contribution Model offers a thorough approach to developing design systems, highlighting teamwork, inclusivity, and ongoing improvement. The model identifies three main roles: the core team, responsible for creating and managing the design system; a broader group of stakeholders contributing through feedback and participation; and community contributors from outside the organization enriching the system with their ideas. These groups communicate through various channels, including direct contributions, feedback loops, and clear guidelines ensuring consistency.
 
-### Future Trends and Innovations
+- **Governance and decision-making** prioritize transparency and consensus, aligning with organizational goals and user needs.
 
-- Predictions for the evolution of design systems
-- Emerging technologies and methodologies
+- **Recognition and rewards** acknowledge contributors' efforts and provide opportunities for growth, fostering community engagement.
+
+- **Continuous improvement** is central, treating the design system as a dynamic entity evolving iteratively based on user feedback and established metrics.
+
+By embracing Nathan Curtis' model, organizations cultivate a collaborative, innovative, and user-focused culture, enhancing both internal workflows and user experiences.
+
+#### Integration with Design and Development Processes
+
+Integrating the design system into the design and development processes is essential for ensuring its success. This includes providing training and onboarding for new team members, versioning and updating components, and establishing clear guidelines for how the system should be used. By embedding the design system into the workflow, teams can work more efficiently and produce better results. key aspects of integrating a design system into the design and development processes include:
+
+- **Training and Onboarding**: Providing resources and support for new team members to learn how to use the design system effectively.
+
+- **Versioning and Updating**: Managing changes to the design system and ensuring that everyone is using the latest components and guidelines. This includes version control, release notes, and changelogs. Using Semantic Versioning can help to communicate changes effectively and avoid breaking changes.
+
+- **Guidelines and Best Practices**: Establishing clear guidelines for how the design system should be used and providing best practices for designers and developers.
+
+- **Collaboration and Communication**: Encouraging collaboration and communication between team members to ensure that everyone is on the same page and working towards the same goals. A design system is only as effective as the team that uses it, so it's important to foster a culture of collaboration and communication. A good support system can help to ensure that everyone is on the same page and working towards the same goals. Fast response times are crucial for keeping the design system up-to-date and relevant.
 
 ### Conclusion
 
-- Recap of the importance and benefits of design systems
-- Final thoughts on the future of design systems
+To summarize, a design system acts as the foundation for consistent and effective product development by providing a cohesive set of guidelines, components, and principles for designers and developers. It integrates various elements such as style guides, component libraries, and pattern libraries to ensure a seamless user experience across different applications and platforms.
 
-## How to measure a Design System
+At its core, the design system is rooted in Atomic Design, a methodology popularized by Brad Frost. This approach deconstructs interfaces into reusable components, starting from basic elements and gradually building up to more complex structures. This enables organizations to create adaptable systems that cater to diverse user needs.
+
+Clear design principles are essential for guiding the development and evolution of the design system. These principles, which encompass values like simplicity, consistency, accessibility, and usability, provide a shared vision for the design team, ensuring alignment throughout the design process.
+
+Documentation plays a crucial role in documenting the design system, serving as a comprehensive reference for stakeholders. It covers everything from design principles to coding standards, evolving alongside the design system to capture changes and best practices over time.
+
+Implementing and maintaining a design system requires collaboration and iteration. Nathan Curtis' Contribution Model offers valuable insights into managing a design system effectively, emphasizing transparency, inclusivity, and continuous improvement.
+
+Governance and decision-making are vital for ensuring the success of the design system. Transparent processes and clear communication channels align stakeholders and drive informed decisions, while recognition and rewards foster a sense of community and motivation within the team.
+
+Continuous improvement is integral to the design system's evolution, driven by user feedback, technological advancements, and changing business needs. Regular assessments and metrics tracking help identify areas for optimization, ensuring the design system remains relevant and effective.
+
+Collaboration and communication are key to integrating the design system into the design and development processes. By fostering a culture of teamwork and knowledge sharing, organizations can maximize the impact of the design system and deliver exceptional user experiences.
+
+<!-- ## How to measure a Design System
 
 - Key metrics for evaluating the impact and effectiveness of a design system
-- Tools and techniques for tracking and analyzing these metrics
+- Tools and techniques for tracking and analyzing these metrics -->
 
 ### Sources
 
-- [How Pinterest Design Systems team measures adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)
+<!-- - [How Pinterest Design Systems team measures adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)
 - [Design Systems Metrics](https://www.uxpin.com/studio/blog/design-system-metrics/)
 - [How to measure success of a Design System](https://www.telerik.com/blogs/how-to-measure-success-design-system)
-- [Comprehensive guide to Design Systems](https://www.invisionapp.com/inside-design/guide-to-design-systems/)
 - [How to measure Design System adoption](https://uxdesign.cc/how-to-measure-design-system-adoption-a17d7e6d57f7?gi=56bd74e071a4)
 - [How to measure the dev side of a Design System](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/)
 - [Design System metrics collection](https://designstrategy.guide/design-system/design-system-metrics-collection/)
-- [Design System audit](https://www.ramotion.com/blog/design-system-audit/)
+- [Design System audit](https://www.ramotion.com/blog/design-system-audit/) -->
+
+- [Comprehensive guide to Design Systems](https://www.invisionapp.com/inside-design/guide-to-design-systems/)
 - [Design System contribution model](https://medium.com/eightshapes-llc/defining-design-system-contributions-eb48e00e8898)
 - [Atomic Design](https://atomicdesign.bradfrost.com/)
+- [Atomic Design revolutionizing Frontend Engineering](https://www.linkedin.com/pulse/atomic-design-revolutionizing-frontend-engineering-remon-botros-rykfc)
+- [Starbucks Style Guide](https://creative.starbucks.com/logos/)
+- Internal Kompas Documents from Jumbo Supermarkten
 
-## Expert Interviews
+<!-- ## Expert Interviews  -->
