@@ -2,53 +2,50 @@
 
 [[toc]]
 
+This literature study will focus on the following research question:
+
+*How might we best automate the reporting to Kompas stakeholders about key success metrics about its usage between designers and 
+developers that use it?*
+
+In particular the subquestion that has to be tackled first, is:
+
+What makes up a Design System?
+
+Why do we need to know this? Its because we need to understand what a Design System is in order to interact with one. Once we are able to understand and interact with it, we can measure the different aspects that make up a good design system. This is important for the success of the project.
+
 ## What makes up a Design System?
 
-A Design System is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications. It serves as a single source of truth for designers and developers, ensuring that everyone is on the same page and that the product is consistent and cohesive.
+A Design system is a group of parts that are all in service of reaching a goal of unified design everywhere it is applied. Commonly it includes a Style guide, a Component library, and a Pattern Library. Depending on what the consumer of the Design system wishes to achieve, at the very least the Syle guide must be referred to and its standards must be followed. From there, both the Component Library and Pattern Library act as a repository of shared and published components that can be efficiently reused and edited. Simply put, Design systems aim to improve collaboration, scalability, quality assurance, development time and strengthen an organisations identity. 
 
 ![Design Systems](../assets/DesignSystems.png)
 
-A Design System typically includes the following elements:
+To further elaborate on the different parts of a Design System:
 
-- **Style guide**: The core values and beliefs that guide the design of the system, such as simplicity, consistency, and accessibility as well as the visual and verbal elements that define the brand, such as colors, typography, and tone of voice.
-- **Component library**: The building blocks of the system, such as buttons, forms, and navigation bars, that can be combined to create interfaces.
-- **Pattern library**: Common design solutions for recurring problems, such as search bars, carousels, and modals, that can be reused across projects.
+- **Style guide**: This includes relevant brand standards such as colors, typography, and tone of voice. Any members of the company that release anything to consumers should refer to this guide to make sure consistency and brand identity is upheld. In addition to this, it is also a good idea for any internal facing material to follow this style guide wherever it is practical. This creates a sense of unity and professionalism for workers. 
 
+- **Component library**: A library that contains components that can be used to build up the UI of an application. They follow the style guide rigidly. A single component can be dynamic, robust and versatile. The figure below shows the versatility of a single component. Googles Material Design system includes many component libraries, in particular, the Material UI React library is a popular choice for many developers. On their documentation, they show how a single component can be used in many different ways. In particular, the Chip component has several attributes that can be changed to make it look different, such as variant, avatar, and label. Above each code example is a picture of what the component looks like. 
+
+![Material UI Chip](../assets/Chips.png)
+
+
+- **Pattern library**: A pattern library is a combination of components that are used to create larger element. This could be in the form of showcasing all the different types of buttons that are available, or all the different types of cards. or all the different types of form components. Pages are made up of patterns.
+- 
 ![Kompas](../assets/Kompas.png)
 
 ### Benefits of Design Systems
 
 <br>
 
-#### Consistency
-
-A design system ensures that all products and features have a consistent look and feel, which helps to establish a strong brand identity and build trust with users.
-
-#### Efficiency
-
-Design systems save time and effort by providing a library of pre-built components that can be easily reused across projects. This allows designers and developers to focus on creating new features and experiences, rather than reinventing the wheel each time.
-
+#### Collaboration 
+With Design Systems, developers and designers can work hand in hand, whenever a Pattern or part of the brand is updated, it is updated in the Design System. This means that everyone is always on the same page, and time is not wasted on communicating changes. In general terms, having a design system moves the life of design within a company out of shared cloud drive folders, emails, and instant messages, and into a single organized, designer and developer friendly place.
+ 
 #### Scalability
 
-Design systems are scalable, meaning they can grow and evolve over time to meet the changing needs of a product or organization. This flexibility allows teams to adapt to new challenges and opportunities without starting from scratch.
+As a general rule, with design systems, if you change something, that change propogates to all its dependencies. For component library changes, everywhere the component is de
 
-#### Collaboration
-
-Collaboration is key to the success of any design system. By bringing together designers, developers, and other stakeholders, a design system can foster a culture of teamwork and shared ownership, leading to better outcomes for everyone involved.
-
-Having components, patterns, and guidelines in one place makes it easier for teams to work together and stay aligned on the vision and goals of a project.
-
-#### Improved User Experience
-
-By providing a consistent and cohesive experience across all touchpoints, a design system can help to improve the overall user experience. Users will be able to navigate products more easily, understand how to interact with them, and feel confident in their interactions.
-
-In a lot of ways, improving the Developer Experience (DX) is just as important as improving the User Experience (UX). A well-designed design system can make it easier for developers to build and maintain products, leading to faster development cycles, fewer bugs, and a more enjoyable working environment.
-
-#### Cost-effectiveness
-
-Design systems can help to reduce costs by streamlining the design and development process, improving efficiency, and reducing the need for rework. By investing in a design system upfront
-
-Reusing components and patterns across projects can also help to reduce the time and effort required to build new features, leading to faster time-to-market and increased productivity which translates to cost savings.
+#### Quality assurance
+#### Development time
+#### Strong brand identity 
 
 ### Building a Design System
 
