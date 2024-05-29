@@ -1,0 +1,1 @@
+{"rule":"PHRASE_REPETITION","sentence":"^\\QComprehensive guide to Design Systems\nDesign System contribution model\nAtomic Design\nAtomic Design revolutionizing Frontend Engineering\nStarbucks Style Guide\nInternal Kompas Documents from Jumbo Supermarkten\\E$"}
