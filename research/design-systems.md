@@ -24,7 +24,15 @@ These are also the parts that make up Kompas, as I have learned from the interna
 
 To further elaborate on the different parts of a Design System:
 
-- **Style guide**: This includes relevant brand standards such as colors, typography, and tone of voice. Any members of the company that release anything to consumers should refer to this guide to make sure consistency and brand identity is upheld. In addition to this, it is also a good idea for any internal facing material to follow this style guide wherever it is practical. This creates a sense of unity and professionalism for workers. 
+- **Style guide**:
+
+A style guide or brand guidelines is a collection of rules or standards aiming to set the look and feel of a brand. Its goal is to be recognizable and a consistent source of truth for designers and developers on how to visually incorporate all graphical elements in their product in a way that represents the brand. It can include elements such as typography, brand colors, tone of voice, logos, and how to use spacing, layouts, and other brand assets. 
+
+Here is an example of a style guide from [Starbucks](https://creative.starbucks.com/logos/)
+
+![Starbucks Style Guide](../assets/StarbucksExample.png)
+
+This includes relevant brand standards such as colors, typography, and tone of voice. Any members of the company that release anything to consumers should refer to this guide to make sure consistency and brand identity is upheld. In addition to this, it is also a good idea for any internal facing material to follow this style guide wherever it is practical. This creates a sense of unity and professionalism for workers. 
 
 - **Component library**: A library that contains components that can be used to build up the UI of an application. They follow the style guide rigidly. A single component can be dynamic, robust and versatile. The figure below shows the versatility of a single component. Googles Material Design system includes many component libraries, in particular, the Material UI React library is a popular choice for many developers. On their documentation, they show how a single component can be used in many ways. In particular, the Chip component has several attributes that can be changed to make it look different, such as variant, avatar, and label. Above each code example is a picture of what the component looks like. 
 
@@ -73,14 +81,6 @@ Here is an example of how Atomic Design is split into different levels:
 ![Atomic Design](../assets/AtomicDesignExamples.png)
 
 Atomic was introduced by Brad Frost in his book [Atomic Design](https://atomicdesign.bradfrost.com/). Since then, it has become a popular framework for building design systems and has been adopted by many organizations, including IBM and Shopify.
-
-#### Creating a Style guide
-
-A style guide or brand guidelines is a collection of rules or standards aiming to set the look and feel of a brand. Its goal is to be recognizable and a consistent source of truth for designers and developers on how to visually incorporate all graphical elements in their product in a way that represents the brand. It can include elements such as typography, brand colors, tone of voice, logos, and how to use spacing, layouts, and other brand assets. 
-
-Here is an example of a style guide from [Starbucks](https://creative.starbucks.com/logos/)
-
-![Starbucks Style Guide](../assets/StarbucksExample.png)
 
 #### Developing UI Components
 

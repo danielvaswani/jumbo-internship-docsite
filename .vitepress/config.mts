@@ -24,7 +24,8 @@ export default defineConfig({
             ]
           },
           { text: 'Research', link: 'research/index.md', items: [
-            { text: 'Design Systems', link: 'research/design-systems.md' },            
+            { text: 'Design Systems', link: 'research/design-systems.md' },
+            { text: 'Metrics', link: 'research/metrics.md' },          
             { text: 'Contribution Model', link: 'research/contribution-model.md' },            
             { text: 'App Architecture', link: 'research/app-architecture.md' },
           ]},

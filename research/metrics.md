@@ -7,94 +7,75 @@ This Literature study will focus on the following research question:
 _How might we best automate the reporting to Kompas stakeholders about key success metrics about its usage between designers and
 developers that use it?_
 
-In particular the subquestion that has to be tackled, is:
+In particular the sub-question that has to be tackled, is:
 
-## What are all the metrics used to gauge DS success?
+## Introduction
+
+### What are all the metrics used to gauge DS success?
 
 In order to understand what makes Kompas successful we have to find metrics that accurately showcase the success of a Design System. This gives stakeholders of the dashboard an overview of the areas of improvement to facilitate better collaboration between designers and developers.
 
-Currently this is as far as KPI tracking goes at Jumbo for Kompas. There is a spreadsheet that manually updated every couple months irregularly. This is not desirable as very often it does not represent the truth of the current state of Kompas, wheather its about the components or Design tokens. No other aspects of Kompas are being tracked to see if they meet standards set by the main stakeholders.
+Currently, this is as far as KPI tracking goes at Jumbo for Kompas. There is a spreadsheet that manually updated every couple months irregularly. This is not desirable as very often it does not represent the truth of the current state of Kompas, whether it's about the components or Design tokens. No other aspects of Kompas are being tracked to see if they meet standards set by the main stakeholders.
 
-### What are **all** the possible metrics?
+## Methods
 
-#### Team Adoption From: [How Pinterest Design Systems team measures adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/) and [How to measure success of a Design System](https://www.telerik.com/blogs/how-to-measure-success-design-system)
+We should do a Literature study and Document analysis to find out what metrics are most important to the stakeholders of Kompas.
 
-#### Quality From: [How Pinterest Design Systems team measures adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)
+**Literature Study**: For each possible metric, there will be a justification. Within the justification, Its explored where the value of the listed metric comes from, how we might categorize it, and what the best way to visualize it is.
 
-#### New Components From: [How Pinterest Design Systems team measures adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)
+**Document Analysis**: An analysis of the current Kompas KPI tracking spreadsheet, its vision, and roadmap to illustrate how Kompas is currently being tracked, and what is desired by crucial stakeholders.
 
-#### Task completion From: [How to measure success of a Design System](https://www.telerik.com/blogs/how-to-measure-success-design-system)
+## Results
 
-#### Design to Development Handoff From: [How to measure success of a Design System](https://www.telerik.com/blogs/how-to-measure-success-design-system)
+### Literature Study
 
-#### Design System updates From: [How to measure success of a Design System](https://www.telerik.com/blogs/how-to-measure-success-design-system)
+#### What are **all** the possible metrics?
 
-#### End User Satisfaction From: [How to measure success of a Design System](https://www.telerik.com/blogs/how-to-measure-success-design-system)
+| **Metric**                                                                                                           | **Justification**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Team Adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)                    | **Value:** Measures how widely and frequently the design system is being used by different teams. Figma allows the possibility to export a CSV file that contains data on Team insertions of components. For example, the store operations team for jumbo.com has x amount of component insertions. But let's say it is 30% less than other teams on average. This metric gives us an accurate representation on how well design teams are acquainted to the way of working on the Figma side of Kompas <br><br> **Category:** Adoption <br><br> **Visualization:** Doughnut Chart                                                                                                    |
+| [Quality](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)                          | **Value:** Quality in this case refers to whether best practices and our given Design System design conventions are being upheld particularly within Figma, and the authors prescribe readers to implement this by using tools that automatically analyse the given files. The authors rationale for why its valuable stated that it improves overall file cleanliness, this has a favorable improvement in Designer productivity overall. This can be extrapolated to include Developer workflows as well, we can use the same idea to collect data on Developers and the code side of the Design system. <br><br> **Category:** Satisfaction <br><br> **Visualization:** |
+| [New Components](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)                   | **Value:** With a design system like Kompas, generally the less new components are created, it means that the existing ones serve their purpose. If we notice that Designers are creating components and sharing them amongst their team repeatedly we can identify whether we should create a reusable component that is versatile enough to meet the initial needs of the Designers that created them, and once that is done it is possible to publish the component to our Design system so that they may be reused efficiently wherever applicable. <br><br> **Category:** Consistency <br><br> **Visualization:**                                                    |
+| [Task Completion](https://www.telerik.com/blogs/how-to-measure-success-design-system)                                | **Value:** This metric is makes use of ALL the workflows identified between Designers and Developers using Kompas, and aims to quantify how successful tasks within their workflows are successfully executed <br><br> **Category:** Efficiency<br><br> **Visualization:**                                                                                                                                                                                                                                                                                                                                                                                              |
+| [Design to Development Hand-off](https://www.telerik.com/blogs/how-to-measure-success-design-system)                 | **Value:** This metric aims to quantify effectiveness in transferring designs to development, specifically, the most important Designer and Developer workflow within the Design system.<br><br> **Category:** Efficiency<br><br> **Visualization:**                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [Design System Updates](https://www.telerik.com/blogs/how-to-measure-success-design-system)                          | **Value:** Aims to assess the ease Developers and Designers face when changing the Design system, it looks at things like the average duration required for a given change to happen when initiated and how consumers of the Design system are informed and awareness of new changes, as well as the success of the updates amongst the Design System consumers. <br><br> **Category:** Adoption <br><br> **Visualization:**                                                                                                                                                                                                                                            |
+| [End User Satisfaction](https://www.telerik.com/blogs/how-to-measure-success-design-system)                          | **Value:** Gauges the satisfaction of end users (customers) interacting with products built using the design system. However, this metric is eliminated from the possible list due to the fact that it is out of scope of the Dashboard for all stakeholders, the central purpose of the dashboard is to gain insight about existing Developer and Designer workflows, so solutions can be found to its shortcomings, at an employee level.<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [Onboarding](https://www.telerik.com/blogs/how-to-measure-success-design-system)                                     | **Value:** Evaluates how easily new team members can get up to speed with the design system. This workflow is important for all new or current members within Jumbo that join customer facing application teams, onboarding time can be measured with arbitrary statistics, For example, it could be measured by how long it takes for a new dev hire to implement a feature, or by directly asking someone who transferred to a customer facing application team how long it took for them to fully explore the Design System. The value of this metric heavily depends on the specific statistics chosen, and comparing the usefulness of the chosen statistic alone will take a significant amount of time and resources, So metrics with more of a straightforward value proposition are favorable. <br><br> **Category:** Adoption <br><br> **Visualization:** Distribution curve                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [Product Scalability](https://www.telerik.com/blogs/how-to-measure-success-design-system)                            | **Value:** Measures the design system’s ability to scale across different products and use cases. Within the section explaining how data might be gathered, it is clear that all the methods of collecting the data are manual, and are not automatable in the context of the dashboard.  <br><br> **Category:** Efficiency <br><br> **Visualization:** Text section                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [Component Usage](https://uxdesign.cc/how-to-measure-design-system-adoption-a17d7e6d57f7?gi=56bd74e071a4)            | **Value:** Tracks the frequency and variety of components used by designers and developers. Tracking Design system component usage can give us indicators whether we should update a component or not given how many places we should check for possible issues with the changes, other than this, tracking component usage can help us see the health of our components, if they are not used at all, we might make a decision to keep the component or not.  <br><br> **Category:** Adoption <br><br> **Visualization:** Bar chart                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| [Design Token Usage](https://uxdesign.cc/how-to-measure-design-system-adoption-a17d7e6d57f7?gi=56bd74e071a4)         | **Value:** Measures the adoption and consistency of design tokens across different products and platforms. Tracking Design token usage will help identify the ratio of tokens being used, to values being manually input. For example, a color design token with a Hex value of #FF0000 is being used in 5 places, but throughout the application the color #FF0000 is used 10 times, without the token. This is not desirable as it means that if the company decides to change the Hex value of the design token, to match a change in company colors, only those 5 places will propagate the color change. This means there is a large error with our Design system governance, giving rise to inconsistent colors.  <br><br> **Category:** Adoption & Consistency <br><br> **Visualization:** Bar chart                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [Design System Versioning](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/)       | **Value:** Significant version discrepancies within all the projects where the design system is a dependency is extremely undesirable. It is useful to have an always up-to-date registry of all projects the Design system is found, and what version number it is on. For example, If 10 projects are on Kompas v4, and 100 are on v7, customers can see a huge difference between how a button looks within 2 areas on the same page, because one teams project is on v4 and the other is on v7. This is also helpful to know which teams to chase to get them to upgrade to later versions. If the latest version is not possible to implement due to the fact it might break application code due to compatibility, the nearest version might suffice, because not every update has changes to every component. <br><br> **Category:** Adoption & Consistency <br><br> **Visualization:** Doughnut Chart                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [Measuring Changes](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/)              | **Value:** Shows the changes in Developer code deletions, insertions, and number of files <br><br> **Category:** Adoption <br><br> **Visualization:** Overlapping Barchart showing changes between different timeframes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [Measuring Developer Experience](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/) | **Value:** Gauges the satisfaction and efficiency of developers using the design system. This requires manual input from developers and thus will not be considered in an automated dashboard.  <br><br> **Category:** Satisfaction <br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+### Document Analysis
 
-#### Onboarding From: [How to measure success of a Design System](https://www.telerik.com/blogs/how-to-measure-success-design-system)
+#### What is currently being tracked?
 
-#### Product Scalability From: [How to measure success of a Design System](https://telerik.com/blogs/how-to-measure-success-design-system)
+The current Kompas KPI tracking spreadsheet is a manual document that is updated irregularly
 
-#### Consistency From: [Design Systems Metrics](https://www.uxpin.com/studio/blog/design-system-metrics/)
+#### What is Kompas stakeholders vision for possible dashboard metrics?
 
-#### Efficiency From: [Design Systems Metrics](https://www.uxpin.com/studio/blog/design-system-metrics/)
+There is a table on Confluence that showcases the current desired metrics. In this table, we also are given the desired ways of categorizing the metrics.
 
-#### Speed to market From: [Design Systems Metrics](https://www.uxpin.com/studio/blog/design-system-metrics/)
+What is also useful is the OKR Document.
 
-#### Effect on code From: [Design Systems Metrics](https://www.uxpin.com/studio/blog/design-system-metrics/)
+#### Overall Kompas Vision
 
-#### Accesibility
+#### Roadmap
 
-#### Component usage From: [How to measure Design System adoption](https://uxdesign.cc/how-to-measure-design-system-adoption-a17d7e6d57f7?gi=56bd74e071a4)
+## Conclusion
 
-#### Design token Usage From: [How to measure Design System adoption](https://uxdesign.cc/how-to-measure-design-system-adoption-a17d7e6d57f7?gi=56bd74e071a4)
+The metric categories we will use are Adoption and Consistency. Within these categories, we will track the following metrics:
 
-#### Design system versioning From: [How to measure the dev side of a Design System](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/)
+- Design System Versioning, Component Usage, Design Token Usage, Team Adoption
 
-#### Measuring changes From: [How to measure the dev side of a Design System](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/)
+We need to be able to present the data in an insightful and understandable way. It has been found that for _ and _ metrics, the best way to visualize them are using pie charts, and with _ and _ metrics, the best way to visualize them are using bar charts.
 
-#### Measuring developer experience From: [How to measure the dev side of a Design System](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/)
+## Sources
 
-#### Design System ROI From: [How to measure the dev side of a Design System](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/)
-
-| **Metric**                                                                                          | **Key Takeaway**                                                                                  |
-|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [Team Adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)   | Measures how widely and frequently the design system is being used by different teams.            |
-| [Quality](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)         | Ensures the design system maintains high standards and meets user expectations consistently.       |
-| [New Components](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)  | Tracks the addition of new, reusable components to the design system.                              |
-| [Task Completion](https://www.telerik.com/blogs/how-to-measure-success-design-system)               | Evaluates the ease with which tasks can be completed using the design system.                      |
-| [Design to Development Handoff](https://www.telerik.com/blogs/how-to-measure-success-design-system) | Measures the efficiency and clarity in transferring designs to development.                        |
-| [Design System Updates](https://www.telerik.com/blogs/how-to-measure-success-design-system)         | Assesses the frequency and quality of updates to the design system.                                |
-| [End User Satisfaction](https://www.telerik.com/blogs/how-to-measure-success-design-system)         | Gauges the satisfaction of end users interacting with products built using the design system.      |
-| [Onboarding](https://www.telerik.com/blogs/how-to-measure-success-design-system)                    | Evaluates how easily new team members can get up to speed with the design system.                  |
-| [Product Scalability](https://www.telerik.com/blogs/how-to-measure-success-design-system)           | Measures the design system’s ability to scale across different products and use cases.             |
-| [Consistency](https://www.uxpin.com/studio/blog/design-system-metrics/)                             | Ensures uniformity in design and user experience across different platforms and products.          |
-| [Efficiency](https://www.uxpin.com/studio/blog/design-system-metrics/)                              | Measures the reduction in time and resources needed to design and develop products.                |
-| [Speed to Market](https://www.uxpin.com/studio/blog/design-system-metrics/)                         | Tracks the time taken to go from concept to product release using the design system.               |
-| [Effect on Code](https://www.uxpin.com/studio/blog/design-system-metrics/)                          | Evaluates the impact of the design system on the quality and maintainability of the codebase.       |
-| [Component Usage](https://uxdesign.cc/how-to-measure-design-system-adoption-a17d7e6d57f7?gi=56bd74e071a4) | Tracks the frequency and variety of components used by designers and developers.                   |
-| [Design Token Usage](https://uxdesign.cc/how-to-measure-design-system-adoption-a17d7e6d57f7?gi=56bd74e071a4) | Measures the adoption and consistency of design tokens across different products and platforms.    |
-| [Design System Versioning](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/) | Tracks the version history and changes made to the design system over time.                      |
-| [Measuring Changes](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/) | Evaluates the impact of changes made to the design system on the development process.             |
-| [Measuring Developer Experience](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/) | Gauges the satisfaction and efficiency of developers using the design system.                    |
-| [Design System ROI](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/) | Measures the return on investment in terms of time and resources saved by using the design system. |
-
-### How do we choose from them?
-
-We should do a to find out what metrics are most important to the stakeholders of Kompas.
-
-### Conclusion
-
-The metrics we will use are Consistency, Adoption, Efficiency, and Satisfaction.
-Now that we have our main metrics on our dashboard we can now brainstorm on possible graphs and insights, visualizations that can be made from the data.
-
-We need to be able to present the data in an insightful and understandable way.
-
-### Sources
-
-- Internal Kompas Documents
+- Internal Kompas Documents (Confluence: OKR Document, KPI Tracking Spreadsheet, Dashboard Vision)
 - [How Pinterest Design Systems team measures adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/)
-- [Design Systems Metrics](https://www.uxpin.com/studio/blog/design-system-metrics/)
+- [Design Systems Metrics](https://www.uxpin.com/stzudio/blog/design-system-metrics/)
 - [How to measure success of a Design System](https://www.telerik.com/blogs/how-to-measure-success-design-system)
 - [How to measure Design System adoption](https://uxdesign.cc/how-to-measure-design-system-adoption-a17d7e6d57f7?gi=56bd74e071a4)
 - [How to measure the dev side of a Design System](https://zeroheight.com/help/guides/how-to-measure-the-dev-side-of-a-design-system/)
